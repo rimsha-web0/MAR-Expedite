@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 72" role="img" aria-label="MAR Expedite LLC">
+  <g transform="translate(4 4)">
+    <rect width="64" height="64" rx="12" fill="#0A1424"/>
+    <path d="M11 45V19l13 14 13-14v26" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="miter" stroke-linecap="square"/>
+    <path d="M44 22l10 10-10 10" fill="none" stroke="#FACC15" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
+  <text x="84" y="38" font-family="'Archivo','Arial Narrow',Arial,sans-serif" font-weight="800" font-size="30" letter-spacing="0.5" fill="#0A1424">MAR EXPEDITE</text>
+  <text x="85" y="60" font-family="'Manrope',Arial,sans-serif" font-weight="700" font-size="12.5" letter-spacing="3" fill="#1D4ED8">LLC · NEWPORT NEWS, VIRGINIA</text>
+</svg>

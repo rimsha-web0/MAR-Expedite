@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us &amp; Request a Quote | MAR Expedite LLC</title>
+  <meta name="description" content="Contact MAR Expedite LLC in Newport News, Virginia to request an expedited freight quote or ask a question.">
+  <link rel="canonical" href="https://marexpeditellc.com/contact.html">
+  <meta name="theme-color" content="#0A1424">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="MAR Expedite LLC — Home">
+        <img src="assets/img/logo-mark.svg" alt="" width="44" height="44">
+        <span class="brand-text"><span class="brand-name">MAR Expedite</span><span class="brand-sub">LLC · Newport News, VA</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a class="btn btn-primary" href="contact.html">Request a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-backdrop" aria-hidden="true"></div>
+  <main id="main">
+    <section class="page-hero on-dark">
+      <img src="assets/img/box-truck.jpg" alt="" width="1400" height="933">
+      <div class="container">
+        <p class="crumbs fade-in"><a href="index.html">Home</a> / Contact</p>
+        <h1 class="fade-in d1">Contact Us</h1>
+        <p class="fade-in d2">Request a quote or ask us a question. We respond to every message within one business day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="form-card reveal">
+          <h2>Send us a message</h2>
+          <p class="form-intro">Fields marked <span class="req" style="color:var(--danger)">*</span> are required.</p>
+
+          <form id="contact-form" action="https://formsubmit.co/ajax/hometech12234@gmail.com" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New website inquiry — MAR Expedite LLC">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="first_name">First name <span class="req">*</span></label>
+                <input id="first_name" name="first_name" type="text" autocomplete="given-name" required aria-describedby="first_name-error">
+                <p class="field-error" id="first_name-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="last_name">Last name <span class="req">*</span></label>
+                <input id="last_name" name="last_name" type="text" autocomplete="family-name" required aria-describedby="last_name-error">
+                <p class="field-error" id="last_name-error" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email address <span class="req">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="email-error">
+                <p class="field-error" id="email-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Mobile phone number <span class="opt">(optional)</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(757) 555-0123" aria-describedby="phone-hint phone-error">
+                <p class="hint" id="phone-hint">Required only if you want to receive text messages.</p>
+                <p class="field-error" id="phone-error" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="company">Company name <span class="opt">(optional)</span></label>
+              <input id="company" name="company" type="text" autocomplete="organization">
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="service">Service needed <span class="req">*</span></label>
+                <select id="service" name="service" required aria-describedby="service-error">
+                  <option value="">Select a service</option>
+                  <option>Expedited Freight</option>
+                  <option>Same-Day / Next-Day</option>
+                  <option>Regional Freight</option>
+                  <option>Long Haul / Interstate</option>
+                  <option>Dedicated Runs</option>
+                  <option>General question</option>
+                </select>
+                <p class="field-error" id="service-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="lane">Pickup → delivery <span class="opt">(optional)</span></label>
+                <input id="lane" name="lane" type="text" placeholder="e.g. Newport News, VA → Charlotte, NC">
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea id="message" name="message" required aria-describedby="message-error" placeholder="Freight type, weight, pallets, pickup time and delivery deadline…"></textarea>
+              <p class="field-error" id="message-error" role="alert"></p>
+            </div>
+
+            <fieldset class="consent-box">
+              <legend>Text message (SMS) consent — optional</legend>
+              <div class="consent">
+                <input type="checkbox" id="sms_consent_transactional" name="sms_consent_transactional" value="yes">
+                <label for="sms_consent_transactional">By checking this box, I agree to receive <strong>transactional</strong> text messages from <strong>MAR Expedite LLC</strong> at the mobile number provided, including quote follow-ups, load and shipment status updates, dispatch notifications, delivery confirmations, appointment reminders and customer support messages. Message frequency varies. Message and data rates may apply. Reply <strong>HELP</strong> for help or <strong>STOP</strong> to opt out at any time. Consent is not a condition of purchase or service. See our <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-and-conditions.html#sms-terms">Terms &amp; Conditions</a>.</label>
+              </div>
+              <div class="consent">
+                <input type="checkbox" id="sms_consent_marketing" name="sms_consent_marketing" value="yes">
+                <label for="sms_consent_marketing">By checking this box, I agree to receive <strong>marketing and promotional</strong> text messages from <strong>MAR Expedite LLC</strong> at the mobile number provided, such as service announcements, available truck capacity and special offers. Message frequency varies (up to 4 messages per month). Message and data rates may apply. Reply <strong>HELP</strong> for help or <strong>STOP</strong> to opt out at any time. Consent is not a condition of purchase or service. See our <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-and-conditions.html#sms-terms">Terms &amp; Conditions</a>.</label>
+              </div>
+            </fieldset>
+
+            <button class="btn btn-primary" type="submit">Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </button>
+            <p class="form-legal">We respect your privacy. Your mobile number and SMS opt-in consent will never be shared with third parties or affiliates for marketing or promotional purposes. Read our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <div class="thanks" id="form-thanks" hidden tabindex="-1" role="status" aria-live="polite">
+            <div class="thanks-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <h2>Thank you<span class="thanks-name"></span>!</h2>
+            <p>Your message has been received. Our team will contact you shortly.</p>
+            <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+              <a class="btn btn-primary" href="index.html">Back to Home</a>
+              <button class="btn btn-outline" type="button" id="send-another">Send another message</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="contact-aside">
+          <div class="aside-card reveal d1">
+            <h3>Get in touch</h3>
+            <ul class="info-list">
+              <li>
+                <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+                <div><strong>Email</strong><a href="mailto:hometech12234@gmail.com">hometech12234@gmail.com</a></div>
+              </li>
+              <li>
+                <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                <div><strong>Headquarters</strong>MAR Expedite LLC<br>131 Tazewell Rd<br>Newport News, VA 23608-3024</div>
+              </li>
+            </ul>
+            <h3 style="margin-top:32px;font-size:1.25rem">Office hours</h3>
+            <ul class="hours">
+              <li><span>Monday – Friday</span><span>7:00 AM – 7:00 PM</span></li>
+              <li><span>Saturday</span><span>8:00 AM – 12:00 PM</span></li>
+              <li><span>Sunday</span><span>Closed</span></li>
+            </ul>
+            <p style="margin:14px 0 0;font-size:.88rem;color:var(--text-on-dark-muted)">All times Eastern Time.</p>
+          </div>
+          <div class="map-wrap reveal d2">
+            <iframe title="Map showing MAR Expedite LLC at 131 Tazewell Rd, Newport News, VA 23608-3024" src="https://www.google.com/maps?q=131%20Tazewell%20Rd%2C%20Newport%20News%2C%20VA%2023608&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="MAR Expedite LLC — Home">
+          <img src="assets/img/logo-mark.svg" alt="" width="44" height="44">
+          <span class="brand-text"><span class="brand-name">MAR Expedite</span><span class="brand-sub">LLC · Newport News, VA</span></span>
+        </a>
+        <p>Expedited, regional and long-haul freight trucking from Newport News, Virginia — serving Hampton Roads, the Mid-Atlantic and the East Coast.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Request a Quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+          <li><a href="terms-and-conditions.html#sms-terms">SMS Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <address>
+          MAR Expedite LLC<br>
+          131 Tazewell Rd<br>
+          Newport News, VA 23608-3024<br>
+          <a href="mailto:hometech12234@gmail.com">hometech12234@gmail.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span data-year>2026</span> MAR Expedite LLC. All rights reserved.</span>
+      <nav aria-label="Legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
